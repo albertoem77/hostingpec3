@@ -1,1 +1,83 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storytelling Netflix Movies and TV Shows</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Storytelling Netflix Movies and TV Shows</h1>
+        Se va a realizar un Storytelling de los datos de https://www.kaggle.com/datasets/shivamb/netflix-shows
+        <p></p>
+        <img src="netflix.webp" alt="Distribución de la edad del contenido" style="width:100%; height:auto;">
+        <h2>Desarrollo a través del tiempo y país</h2>
+        A continuación se muestra el desarrollo de cómo se han ido añadiendo los diferentes tipos de contenido en 
+Netflix con temporalidad:
+        <div id="section-conteo">
+            <!-- Aquí se debe incluir el archivo conteo.html -->
+            <object type="text/html" data="conteo.html" width="102%" height="500px"></object>
+        </div>
+        Se observa que se empezó añadir contenido sobre todo a partir del 2016 sobretodo de películas y como se muestra
+ahora ese momento es cuando a parte de EE.UU se empiezan a hacer streaming en otros países:
+
+        <div id="section-mapa-year">
+            <!-- Aquí se debe incluir el archivo mapa_year.html -->
+            <object type="text/html" data="mapa_year.html" width="102%" height="500px"></object>
+        </div>
+        Se aprecia que principalmente donde se añaden series y películas es en EE.UU e India.
+
+        <h2>Tipos de contenidos</h2>
+        Veamos cuales son los tipos de contenidos que se ha añadido a lo largo de estos años:
+
+        <div id="section-contenidos">
+            <!-- Aquí se debe incluir el archivo contenidos.html -->
+            <object type="text/html" data="contenidos.html" width="100%" height="600px"></object>
+        </div>
+        Se ve que se centraron en hacer películas internacionales, Dramas y comedias.
+
+        <h2>Distribución de la edad del contenido</h2>
+        A continuación se muestra la distribución de la edad del contenido para su audiencia objetivo.
+
+        <img src="ratings.png" alt="Distribución de la edad del contenido" style="width:100%; height:auto;">
+        Parece que el contenido añadido es principalmente para adolescentes en adelante, sobre todo haciendo hincapié en personas mayores de 18, posiblemente debido a que son quienes pagan este servicio.
+
+       
+        <h2>Directores y actores</h2>
+        Lo siguiente que se observa son los directores y los géneros en los que han trabajado (se enseñan los 50 top directores):
+
+        <!-- Se pueden agregar más secciones según sea necesario -->
+        <div id="section-directores">
+            <!-- Aquí se debe incluir el archivo directores.html -->
+            <object type="text/html" data="directores.html" width="100%" height="1000px"></object>
+        </div>
+        <p>Se centran en hacer sobre todo los tipos de contenidos que salieron más comunes, pero las stand-up Comedy y Romactic movies son donde en específico repiten más los mismos directores. 
+        A la hora de mirar los actores hay una gran variedad así que vamos hacer un Bag of Words (BoW) para ver cuales son los nombres más comunes y conocer aproximadamente la procedencia de estos actores:
+    </p>
+    <img src="actores.png" alt="Distribución de la edad del contenido" style="width:100%; height:auto;">
+    <p>
+
+    </p>
+        Se observa que los nombres más comunes son anglosajones algo que tiene mucho sentido por donde se van añadiendo las películas cuya población diana también lo son.
+        
+        <h2>Descripción de los shows añadidos</h2>
+        Por último se realiza un Bow de la descripción de los diversos series y películas que se van añadiendo a lo largo de los años, dividido por series, películas y ambos:
+
+        <div id="section-conteo">
+            <!-- Aquí se debe incluir el archivo conteo.html -->
+            <object type="text/html" data="Bow_of_words.html" width="102%" height="500px"></object>
+        </div>
+        Se aprecia que las principales palabras en general son vida, juventud, nuevo, familia, mundo, hombre,amor, mujer y amigos.
+        <h2>Conclusión</h2>
+        Se concluye que las películas añadidas en netflix en los últimos años son principalmente a partir de 2016 , sobre todo en EE.UU, para adolescentes en adelante con contenido dramático, internacional y cómico, compuesto por actores anglosajones y tratando temas de la familia, el amor y los amigos
+        <p>
+
+        </p>
+        
+        <img src="netflix.webp" alt="Distribución de la edad del contenido" style="width:100%; height:auto;">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
